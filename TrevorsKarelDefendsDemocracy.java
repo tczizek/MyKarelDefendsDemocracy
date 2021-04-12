@@ -12,7 +12,7 @@ public class KarelDefendsDemocracy extends SuperKarel {
 	}
 	// checkChad is method for checking ballot boxes /
 	
-	private void checkChad() {
+	public void checkChad() {
 		if(noBeepersPresent()) {
 			turnLeft();
 			move();
